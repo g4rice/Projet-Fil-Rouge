@@ -1,7 +1,43 @@
-main {
-    
+body {
+    background-color:black;
 }
 
-body {
-    background-image: url("https://wallpapercave.com/wp/wp6751611.jpg");   
+.titre {
+    color:white; }
+
+#point{
+    color: green
+}
+
+@font-face {
+    font-family:Yeseva;
+    src:
+        url(../fonts/YesevaOne-Regular.ttf)
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headright {
+    text-align:right; 
+}
+
+.headright i {
+    padding: 6px;
+    margin-top: 15px
+}
+
+hr {
+    color: grey;
+}
+
+p {
+    font-family: Yeseva;
+    color:white
+
+}
+#vert{
+    color: green;
 }
