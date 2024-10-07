@@ -1,5 +1,5 @@
 body {
-    background-color:black;
+    background-color:#0b0a0e;
 }
 
 .titre {
@@ -40,4 +40,31 @@ p {
 }
 #vert{
     color: green;
+}
+
+#credit{
+    color: grey;
+    text-align: center;
+    font-size: 10px;
+}
+
+#outro{
+    color: grey;
+    text-align: center;
+    font-size: 7px;
+}
+
+#texte{
+    color: grey;
+    font-size: 10px;
+}
+
+#cato{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+#hello{
+    font-size: 39px;
 }
