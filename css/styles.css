@@ -1,5 +1,22 @@
+:root {
+    --couleur-fond: #041821;
+    --couleur-texte: white;
+    --couleur-surlignage: #3d917a;
+    --couleur-fond2: #1ece9a;
+}
+
 body {
-    background-color:#0b0a0e;
+    background-color: var(--couleur-fond);
+}
+
+@font-face {
+    font-family: Yeseva;
+    src: url(../fonts/YesevaOne-Regular.ttf);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .titre {
@@ -9,62 +26,102 @@ body {
     color: green
 }
 
-@font-face {
-    font-family:Yeseva;
-    src:
-        url(../fonts/YesevaOne-Regular.ttf)
-}
-
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.div2 {
+    text-align: right;
+    margin-top: 16px;
 }
 
 .headright {
-    text-align:right; 
+    text-align: right; 
 }
 
 .headright i {
     padding: 6px;
-    margin-top: 15px
+    margin-top: 15px;
 }
+
+p {
+    font-family: Yeseva;
+    color: white;
+}
+
+#hello {
+    font-size: 39px;
+}
+
+#vert {
+    color: var(--couleur-fond2);
+}
+
+#credit, #outro {
+    color: grey;
+    text-align: center;
+    font-size: 10px; 
+}
+
+#outro {
+    font-size: 7px;
+}
+
+#texte {
+    color: grey;
+    font-size: 10px;
+}
+
+
+main {
+    padding-top: 30px;
+    margin: 0 9%;
+}
+
+main #main-text {
+    font-size: 15px;
+    text-align: left;
+    width: 805px;
+    color: #64777f;
+}
+
+.parent-main-text {
+    padding-bottom: 9vh;
+}
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: var(--couleur-texte);
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 32px; 
+}
+
+main li {
+    margin-right: 35px;
+    text-align: center;
+}
+
+.menu-parent {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.menu-highlight {
+    background-color: var(--couleur-surlignage);
+    padding: 5px;
+}
+
 
 hr {
     color: grey;
 }
 
-p {
-    font-family: Yeseva;
-    color:white
 
-}
-#vert{
-    color: green;
-}
-
-#credit{
-    color: grey;
-    text-align: center;
-    font-size: 10px;
-}
-
-#outro{
-    color: grey;
-    text-align: center;
-    font-size: 7px;
-}
-
-#texte{
-    color: grey;
-    font-size: 10px;
-}
-
-#cato{
-    color: white;
-    text-align: center;
-    font-size: 10px;
-}
-
-#hello{
-    font-size: 39px;
+{
+    margin: 0;
+    padding: 0;
 }
